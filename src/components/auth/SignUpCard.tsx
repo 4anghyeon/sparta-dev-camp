@@ -1,5 +1,6 @@
 import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from '@/components/ui/card.tsx';
 import {cn} from '@/lib/utils.ts';
+import SignUpForm from '@/components/auth/SignUpForm.tsx';
 
 const SignUpCard = () => {
   return (
@@ -9,7 +10,7 @@ const SignUpCard = () => {
         <CardDescription>필수 정보를 입력헤볼게요.</CardDescription>
       </CardHeader>
       <CardContent>
-        <h1>Content</h1>
+        <SignUpForm />
       </CardContent>
       <CardFooter>데브캠프</CardFooter>
     </Card>
